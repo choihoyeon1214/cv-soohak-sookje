@@ -21,5 +21,3 @@ edges_pillow.show()
 
 output_path = 'edges_output.jpg'
 edges_pillow.save(output_path)
-
-print(f"Canny Edge Detection 결과가 저장되었습니다: {output_path}")
