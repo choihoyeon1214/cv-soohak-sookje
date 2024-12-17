@@ -2,7 +2,7 @@ import cv2
 from PIL import Image
 
 
-input_path = 'sanz.png' 
+input_path = 'cat.jpg' 
 image = cv2.imread(input_path, cv2.IMREAD_GRAYSCALE) 
 
 blurred_image = cv2.GaussianBlur(image, (5, 5), 0)
@@ -20,4 +20,4 @@ edges_pillow.show()
 
 
 output_path = 'edges_output.jpg'
-edges_pillow.save(output_path)
+edges_pillow.show()
